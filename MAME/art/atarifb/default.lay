@@ -1,0 +1,97 @@
+<!-- atarifb.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>>
+	<element name="ledoff">
+		<image file="atarifb_led_off.png" />
+	</element>
+	<element name="ledon" defstate="0" >
+		<image file="atarifb_led_on.png" state="1" />
+	</element>
+	<element name="coneon" defstate="1" >
+		<image file="cone_on.png" state="0" />
+	</element>	
+	<view name="Upright_View">
+		<screen index="0">
+			<bounds x="525" y="160" width="870" height="555" />
+		</screen>
+		<backdrop element="ledoff">
+			<bounds x="539" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>		
+		<backdrop element="ledoff">
+			<bounds x="633" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>		
+		<backdrop element="ledoff">
+			<bounds x="726" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>		
+		<backdrop element="ledoff">
+			<bounds x="819" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>
+		<bezel name="ledleft0" element="ledon">
+			<bounds x="539" y="919" width="24" height="24" />
+		</bezel>		
+		<bezel name="ledleft1" element="ledon">
+			<bounds x="633" y="919" width="24" height="24" />
+		</bezel>		
+		<bezel name="ledleft2" element="ledon">
+			<bounds x="726" y="919" width="24" height="24" />
+		</bezel>		
+		<bezel name="ledleft3" element="ledon">
+			<bounds x="819" y="919" width="24" height="24" />
+		</bezel>
+		<backdrop element="ledoff">
+			<bounds x="1022" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>		
+		<backdrop element="ledoff">
+			<bounds x="1116" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>		
+		<backdrop element="ledoff">
+			<bounds x="1208" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>		
+		<backdrop element="ledoff">
+			<bounds x="1301" y="919" width="24" height="24" />
+			<color alpha="0.4"/>
+		</backdrop>	
+		<bezel name="ledright0" element="ledon">
+			<bounds x="1022" y="919" width="24" height="24" />
+		</bezel>		
+		<bezel name="ledright1" element="ledon">
+			<bounds x="1116" y="919" width="24" height="24" />
+		</bezel>		
+		<bezel name="ledright2" element="ledon">
+			<bounds x="1208" y="919" width="24" height="24" />
+		</bezel>		
+		<bezel name="ledright3" element="ledon">
+			<bounds x="1301" y="919" width="24" height="24" />
+		</bezel>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel name="ledright4" element="coneon">
+			<bounds x="1380" y="768" width="29" height="30" />
+		</bezel>
+		<bezel name="ledleft4" element="coneon">
+			<bounds x="508" y="768" width="29" height="30" />
+		</bezel>	
+	</view>
+</mamelayout>
+
+<!-- 
+
+- Artwork type: Control Panel
+- Control panel graphics provided by BYOAC / CAG Artwork
+- LEDs provided by Nathan Strum
+- Cone LEDs provided by zorg
+- Converted for MAME by Mr. Do
+- Lay file by Mr. Do
+
+-->

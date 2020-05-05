@@ -1,0 +1,31 @@
+<!-- dkong.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="727" y="306" width="469" height="622" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Inst_Card
+- (Unknown means) bezel provided by zorg
+- Vectorized by zorg
+- Color corrected by Mr. Do
+- Instruction cards provided by MikesArcade
+- Converted for MAME by Ad_Enuff
+- D2K color corrections by Mr. Do, based on photos by Jeff K.
+- Artwork type: Arcade Widescreen
+- Widescreen graphics by hausjam
+- Based on graphics in official arcade artwork
+- Lay file by Mr. Do
+
+-->

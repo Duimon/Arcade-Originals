@@ -1,0 +1,28 @@
+<!-- mario.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="540" y="263" width="842" height="659" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Vectorized based on photos by MAMu_ 
+- Adjusted by Mr. Do
+- Artwork type: Arcade Widescreen
+- Widescreen graphics by hausjam
+- Based on graphics in official arcade artwork
+- Lay file by Mr. Do
+
+-->
+  

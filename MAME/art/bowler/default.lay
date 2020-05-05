@@ -1,0 +1,73 @@
+<!-- bowler.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="lamps">
+		<image file="bowling_lamps.png" />
+	</element>
+	<element name="light" defstate="0">
+		<image file="bowling_light_on.png" state="1" />
+	</element>
+	<element name="light_strike" defstate="0">
+		<image file="bowling_light_strike.png" state="1" />
+	</element>
+	<element name="light_x" defstate="0">
+		<image file="bowling_light_x.png" state="1" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="648" y="230" width="629" height="801" />
+		</screen>
+		<bezel  element="bezel">
+			<bounds x="0" y="" width="1920" height="1080" />
+		</bezel>
+		<backdrop name="200_LEFT_LIGHT" element="light">
+			<bounds x="523" y="120" width="118" height="92" />
+		</backdrop>
+		<backdrop name="400_LEFT_LIGHT" element="light">
+			<bounds x="651" y="120" width="118" height="92" />
+		</backdrop>
+		<backdrop name="500_LEFT_LIGHT" element="light">
+			<bounds x="777" y="120" width="118" height="92" />
+		</backdrop>
+		<backdrop name="700_LIGHT" element="light">
+			<bounds x="904" y="120" width="118" height="92" />
+		</backdrop>
+		<backdrop name="500_RIGHT_LIGHT" element="light">
+			<bounds x="1030" y="120" width="118" height="92" />
+		</backdrop>
+		<backdrop name="400_RIGHT_LIGHT" element="light">
+			<bounds x="1157" y="120" width="118" height="92" />
+		</backdrop>
+		<backdrop name="200_RIGHT_LIGHT" element="light">
+			<bounds x="1284" y="120" width="118" height="92" />
+		</backdrop>
+		<backdrop name="X_LEFT_LIGHT" element="light_strike">
+			<bounds x="1414" y="165" width="111" height="31" />
+		</backdrop>
+		<backdrop name="X_LEFT_LIGHT" element="light_x">
+			<bounds x="400" y="133" width="111" height="32" />
+		</backdrop>
+		<backdrop name="X_RIGHT_LIGHT" element="light_strike">
+			<bounds x="444" y="165" width="65" height="32" />
+		</backdrop>
+		<backdrop name="X_RIGHT_LIGHT" element="light_x">
+			<bounds x="1416" y="133" width="65" height="32" />
+		</backdrop>
+		<backdrop element="lamps">
+			<bounds x="391" y="120" width="1143" height="92" />
+			<color alpha="0.8" />
+		</backdrop>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Lamps
+- Based on flyer from Dan at TAFA
+- Created for MAME by Mr. Do
+- Lay file by Mr. Do
+
+-->

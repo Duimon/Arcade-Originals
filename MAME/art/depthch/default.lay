@@ -1,0 +1,25 @@
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="overlay">
+		<rect>
+			<bounds left="0" top="0" right="4" bottom="3" />
+			<color red="0.27" green="0.53" blue="0.8" />
+		</rect>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="569" y="403" width="783" height="578" />
+		</screen><overlay element="overlay">
+			<bounds x="569" y="403" width="783" height="578" />
+		</overlay>
+		<bezel element="overlay">
+			<bounds x="569" y="403" width="783" height="578" />
+			<color alpha="0.1" />
+		</bezel>		
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view> 
+</mamelayout>

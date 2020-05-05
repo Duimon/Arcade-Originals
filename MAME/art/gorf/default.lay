@@ -1,0 +1,61 @@
+<!-- gorf.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="light_cadet" defstate="0">
+		<image file="light_cadet.png"  state="1" />
+	</element>
+	<element name="light_captain" defstate="0">
+		<image file="light_captain.png"  state="1" />
+	</element>
+	<element name="light_colonel" defstate="0">
+		<image file="light_colonel.png" state="1" />
+	</element>
+	<element name="light_general" defstate="0">
+		<image file="light_general.png" state="1" />
+	</element>
+	<element name="light_warrior" defstate="0">
+		<image file="light_warrior.png" state="1" />
+	</element>
+	<element name="light_avenger" defstate="0">
+		<image file="light_avenger.png" state="1" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="638" y="238" width="633" height="766" />
+		</screen>
+		<bezel name="lamp0" element="light_cadet">
+            		<bounds x="1312" y="692" width="73" height="102" />
+		</bezel>
+		<bezel name="lamp1" element="light_captain">
+            		<bounds x="1396" y="692" width="73" height="102" />
+		</bezel>
+		<bezel name="lamp2" element="light_colonel">
+            		<bounds x="1312" y="801" width="73" height="102" />
+		</bezel>
+		<bezel name="lamp3" element="light_general">
+            		<bounds x="1396" y="801" width="73" height="102" />
+		</bezel>
+		<bezel name="lamp4" element="light_warrior">
+            		<bounds x="1312" y="910" width="73" height="102" />
+		</bezel>
+		<bezel name="lamp5" element="light_avenger">
+            		<bounds x="1396" y="910" width="73" height="102" />
+		</bezel>
+		<bezel element="bezel">
+            		<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>		
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel; Lamps
+- Scanned bezel provided by Aaron Giles
+- Vectorized by zorg; color corrected by Mr. Do
+- Lamps by Mr. Do
+- Lay file by Mr. Do
+
+-->
