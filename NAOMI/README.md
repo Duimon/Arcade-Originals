@@ -1,0 +1,1 @@
+A NAOMI Cabinet for the arcade Originals series. Can be used for any NAOMI game.
