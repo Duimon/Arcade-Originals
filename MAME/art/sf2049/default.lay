@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="abort" defstate="0">
+		<image file="abort.png" state="1" />
+	</element>
+	<element name="music" defstate="0">
+		<image file="music.png" state="1" />
+	</element>
+	<element name="view1" defstate="0">
+		<image file="view1.png" state="1" />
+	</element>
+	<element name="view2" defstate="0">
+		<image file="view2.png" state="1" />
+	</element>
+	<element name="view3" defstate="0">
+		<image file="view3.png" state="1" />
+	</element>
+	<element name="leader" defstate="0">
+		<image file="leader.png" state="1" />
+	</element>
+
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="524" y="193" width="870" height="605" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+
+		<bezel name="lamp0" element="abort" inputtag="SYSTEM" inputmask="0x04">
+			<bounds x="597" y="985" width="57" height="36" />
+		</bezel>
+		<bezel name="lamp5" element="music" inputtag="IN1" inputmask="0x08">
+			<bounds x="530" y="1024" width="57" height="36" />
+		</bezel>
+		<bezel name="lamp3" element="view3" inputtag="IN1" inputmask="0x04">
+			<bounds x="530" y="955" width="57" height="36" />
+		</bezel>
+		<bezel name="lamp2" element="view2" inputtag="IN1" inputmask="0x02">
+			<bounds x="463" y="985" width="57" height="36" />
+		</bezel>
+		<bezel name="lamp1" element="view1" inputtag="IN1" inputmask="0x01">
+			<bounds x="394" y="1015" width="57" height="36" />
+		</bezel>
+		<bezel name="lamp8" element="leader">
+			<bounds x="791.62" y="38.77" width="318" height="64" />
+		</bezel>
+	</view>
+</mamelayout>

@@ -1,0 +1,62 @@
+<!-- spyhunt.lay -->
+
+<mamelayout version="2">	
+	<element name="bezel" >
+		<image file="bezel.png" />
+	</element>	
+	<element name="woil" defstate="0" >
+		<image file="woil.png" state="1" />
+	</element>	
+	<element name="wmissile" defstate="0" >
+		<image file="wmiss.png" state="1" />
+	</element>	
+	<element name="wweapons" defstate="0" >
+		<image file="wvan.png" state="1" />
+	</element>	
+	<element name="wsmoke" defstate="0" >
+		<image file="wsmoke.png" state="1" />
+	</element>	
+	<element name="wguns" defstate="0" >
+		<image file="wguns.png" state="1" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="716" y="265" width="487" height="658" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>		
+		<bezel name="lamp0" element="woil">
+			<bounds x="610" y="837" width="91" height="59" />
+		</bezel>		
+		<bezel name="lamp1" element="wmissile">
+			<bounds x="426" y="837" width="90" height="45" />
+		</bezel>		
+		<bezel name="lamp2" element="wweapons">
+			<bounds x="1328" y="694" width="84" height="56" />
+		</bezel>		
+		<bezel name="lamp3" element="wsmoke">
+			<bounds x="1219" y="837" width="100" height="52" />
+		</bezel>		
+		<bezel name="lamp4" element="wguns">
+			<bounds x="1401" y="837" width="96" height="53" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Lamps
+- Scanned bezel provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Vectorized by zorg
+- Color adjusted by Ad_Enuff
+- Lamps by Mr. Do
+- Artwork type: Arcade Compilation
+- From Midway Arcade Origins for XBox 360
+- Artwork type: Arcade Widescreen
+- Widescreen graphics by hausjam
+- Based on graphics in official arcade artwork
+- Lay file by Mr. Do
+
+-->

@@ -1,0 +1,108 @@
+<!-- seawolf.lay -->
+
+<mamelayout version="2">
+	<element name="exp_lamp_a" defstate="0">
+		<image file="exp_lamp_a.png"  state="1" />
+	</element>
+	<element name="exp_lamp_b" defstate="0">
+		<image file="exp_lamp_b.png"  state="1" />
+	</element>
+	<element name="overlay">
+		<rect>
+			<color red="0.0" green="0.90" blue="0.90" />
+		</rect>
+	</element>
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<view name="Bezel_View">
+		<screen index="0">
+			<bounds x="643" y="246" width="636" height="458" />
+		</screen>
+		<overlay element="overlay">
+			<bounds x="643" y="246" width="636" height="458" />
+			<color alpha=".6" />
+		</overlay>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel name="EXP_LAMP_0" element="exp_lamp_b">
+            <bounds x="677" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_1" element="exp_lamp_b">
+            <bounds x="751" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_2" element="exp_lamp_a">
+            <bounds x="825" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_3" element="exp_lamp_b">
+            <bounds x="899" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_4" element="exp_lamp_a">
+            <bounds x="973" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_5" element="exp_lamp_b">
+            <bounds x="1046" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_6" element="exp_lamp_a">
+            <bounds x="1119" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_7" element="exp_lamp_b">
+            <bounds x="1194" y="364" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_8" element="exp_lamp_b">
+            <bounds x="677" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_9" element="exp_lamp_a">
+            <bounds x="751" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_A" element="exp_lamp_a">
+            <bounds x="825" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_B" element="exp_lamp_b">
+            <bounds x="899" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_C" element="exp_lamp_a">
+            <bounds x="973" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_D" element="exp_lamp_b">
+            <bounds x="1046" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_E" element="exp_lamp_a">
+            <bounds x="1119" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+		<bezel name="EXP_LAMP_F" element="exp_lamp_b">
+            <bounds x="1194" y="308" width="75" height="38" />
+			<color alpha=".6" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+NOTE:  In outside view, if you want to be more authentic and get rid of the torpedo lamps, just turn off backdrops.
+
+- Artwork type: Bezel, Lamps
+- All scanned parts provided by Mr. Do
+- All scanned parts on loan from Gene at www.vintagearcade.net
+- Bezel Converted for MAME by Ad_Enuff
+- Periscope piece converted for MAME by Mr. Do
+- Explosion lamp pieces vectored by jcroach
+- Lay file by Mr. Do
+
+-->

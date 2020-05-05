@@ -1,0 +1,19 @@
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="overlay">
+		<image file="overlay.png" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="603" y="183" width="714" height="872" />
+		</screen>		
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<overlay element="overlay">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</overlay>
+	</view> 
+</mamelayout>

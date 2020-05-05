@@ -1,0 +1,23 @@
+<!-- pdp1.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="pdp1.png" />
+	</element>
+	<view name="Computer_Artwork">
+		<screen index="0">
+			<bounds x="275" y="52" width="1371" height="1028" />
+		</screen>		
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view> 
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Artwork created by Duane Huseby
+- Lay file by Duane Huseby
+
+-->

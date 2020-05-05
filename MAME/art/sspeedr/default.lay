@@ -1,0 +1,119 @@
+<!-- sspeedr.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="digit" defstate="10">
+		<led7seg>
+			<color red="1.0" green="0.3" blue="0.0" />
+		</led7seg>
+	</element>	
+	<element name="lampGO" defstate="0">
+		<image file="game_over.png" state="1" />
+	</element>
+	<element name="lampEP" defstate="0">
+		<image file="ext_play.png" state="1" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds left="854" top="265" right="1392" bottom="990" />
+		</screen>				
+		<bezel element="bezel">
+			<bounds left="0" top="0" right="1920" bottom="1080" />
+		</bezel>
+		<bezel name="lampGO" element="lampGO">
+			<bounds left="0" top="0" right="1920" bottom="1080" />
+		</bezel>
+		<bezel name="lampEP" element="lampEP">
+			<bounds left="0" top="0" right="1920" bottom="1080" />
+		</bezel>
+		<bezel name="digit0" element="digit">
+			<bounds left="505" top="298" right="535" bottom="339" />		
+		</bezel>
+		<bezel name="digit1" element="digit">
+			<bounds left="543" top="298" right="573" bottom="339" />		
+		</bezel>
+		<bezel name="digit2" element="digit">
+			<bounds left="581" top="298" right="611" bottom="339" />		
+		</bezel>
+		<bezel name="digit3" element="digit">
+			<bounds left="619" top="298" right="649" bottom="339" />		
+		</bezel>
+		<bezel name="digit4" element="digit">
+			<bounds left="505" top="355" right="535" bottom="396" />		
+		</bezel>
+		<bezel name="digit5" element="digit">
+			<bounds left="543" top="355" right="573" bottom="396" />		
+		</bezel>
+		<bezel name="digit6" element="digit">
+			<bounds left="581" top="355" right="611" bottom="396" />		
+		</bezel>
+		<bezel name="digit7" element="digit">
+			<bounds left="619" top="355" right="649" bottom="396" />		
+		</bezel>
+		<bezel name="digit8" element="digit">
+			<bounds left="505" top="413" right="535" bottom="454" />		
+		</bezel>
+		<bezel name="digit9" element="digit">
+			<bounds left="543" top="413" right="573" bottom="454" />		
+		</bezel>
+		<bezel name="digit10" element="digit">
+			<bounds left="581" top="413" right="611" bottom="454" />		
+		</bezel>
+		<bezel name="digit11" element="digit">
+			<bounds left="619" top="413" right="649" bottom="454" />		
+		</bezel>
+		<bezel name="digit12" element="digit">
+			<bounds left="505" top="471" right="535" bottom="512" />		
+		</bezel>
+		<bezel name="digit13" element="digit">
+			<bounds left="543" top="471" right="573" bottom="512" />		
+		</bezel>
+		<bezel name="digit14" element="digit">
+			<bounds left="581" top="471" right="611" bottom="512" />		
+		</bezel>
+		<bezel name="digit15" element="digit">
+			<bounds left="619" top="471" right="649" bottom="512" />		
+		</bezel>
+		<bezel name="digit16" element="digit">
+			<bounds left="505" top="528" right="535" bottom="569" />		
+		</bezel>
+		<bezel name="digit17" element="digit">
+			<bounds left="543" top="528" right="573" bottom="569" />		
+		</bezel>
+		<bezel name="digit18" element="digit">
+			<bounds left="581" top="528" right="611" bottom="569" />		
+		</bezel>
+		<bezel name="digit19" element="digit">
+			<bounds left="619" top="528" right="649" bottom="569" />		
+		</bezel>
+		<bezel name="digit20" element="digit">
+			<bounds left="505" top="601" right="535" bottom="642" />		
+		</bezel>
+		<bezel name="digit21" element="digit">
+			<bounds left="543" top="601" right="573" bottom="642" />		
+		</bezel>
+		<bezel name="digit22" element="digit">
+			<bounds left="581" top="601" right="611" bottom="642" />		
+		</bezel>
+		<bezel name="digit23" element="digit">
+			<bounds left="619" top="601" right="649" bottom="642" />		
+		</bezel>
+		<bezel name="digit24" element="digit">
+			<bounds left="543" top="789" right="573" bottom="830" />		
+		</bezel>
+		<bezel name="digit25" element="digit">
+			<bounds left="581" top="789" right="611" bottom="830" />		
+		</bezel>
+	</view>	
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- (Unknown means) bezel provided by (unknown)
+- Converted for MAME by (unknown)
+- Lay file by Mr. Do
+
+-->

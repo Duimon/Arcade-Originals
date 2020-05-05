@@ -1,0 +1,20 @@
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="shifter" defstate="0">
+		<image file="Shift_Low.png" state="0"/>
+		<image file="Shift_High.png" state="1"/>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="561" y="366" width="799" height="583" />
+		</screen>		
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="shifter" inputtag="IN0" inputmask="0x02">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view> 
+</mamelayout>

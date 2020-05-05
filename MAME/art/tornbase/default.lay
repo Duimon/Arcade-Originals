@@ -1,0 +1,30 @@
+<!-- tornbase.lay -->
+
+<mamelayout version="2">
+	<element name="backdrop">
+		<image file="backdrop.png" />
+	</element>
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="630" y="364" width="660" height="621" />
+		</screen>		
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<backdrop element="backdrop">
+			<bounds x="502" y="300" width="916" height="758" />
+			<color alpha="0.5" />
+		</backdrop>
+	
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Backdrop
+- Lay file & photo-editing by Comboman
+
+-->
