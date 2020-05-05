@@ -1,0 +1,138 @@
+<!-- videopin.lay -->
+
+<mamelayout version="2">
+	<element name="backdrop">
+		<image file="video_pin_backdrop.png" />
+	</element>
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="led" defstate="0">
+		<image file="atari_led_off.png" state="0" />
+		<image file="atari_led_on.png" state="1" />
+		<image file="atari_led_on.png" state="1" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="736" y="401" width="449" height="614" />
+			<color alpha="0.8" />
+		</screen>
+<!-- Lamps -->
+<!-- Top Left Corner -->
+		<backdrop name="LED01" element="led">
+			<bounds x="785" y="436" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED02" element="led">
+			<bounds x="762" y="447" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED03" element="led">
+			<bounds x="759" y="477" width="15" height="15" />
+		</backdrop>
+<!-- Top Left 3000 -->
+		<backdrop name="LED04" element="led">
+			<bounds x="813" y="491" width="15" height="15" />
+		</backdrop>
+<!-- Top Middle -->
+		<backdrop name="LED05" element="led">
+			<bounds x="888" y="449" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED06" element="led">
+			<bounds x="928" y="425" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED07" element="led">
+			<bounds x="969" y="451" width="15" height="15" />
+		</backdrop>
+<!-- Bonus Top Right -->
+		<backdrop name="LED08" element="led">
+			<bounds x="1064" y="543" width="15" height="15" />
+		</backdrop>
+<!-- Left Middle -->
+		<backdrop name="LED09" element="led">
+			<bounds x="768" y="564" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED10" element="led">
+			<bounds x="753" y="602" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED11" element="led">
+			<bounds x="772" y="642" width="15" height="15" />
+		</backdrop>
+<!-- Left Lanes -->		
+		<backdrop name="LED14" element="led">
+			<bounds x="754" y="780" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED15" element="led">
+			<bounds x="797" y="780" width="15" height="15" />
+		</backdrop>
+<!-- Each Bonus 3000 -->
+		<backdrop name="LED17" element="led">
+			<bounds x="922" y="776" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED18" element="led">
+			<bounds x="922" y="792" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED19" element="led">
+			<bounds x="922" y="806" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED20" element="led">
+			<bounds x="922" y="821" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED21" element="led">
+			<bounds x="922" y="835" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED22" element="led">
+			<bounds x="922" y="851" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED23" element="led">
+			<bounds x="922" y="864" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED24" element="led">
+			<bounds x="922" y="877" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED25" element="led">
+			<bounds x="922" y="891" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED26" element="led">
+			<bounds x="922" y="904" width="15" height="15" />
+		</backdrop>
+<!-- Bonus Advance 50 -->
+		<backdrop name="LED16" element="led">
+			<bounds x="838" y="750" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED12" element="led">
+			<bounds x="924" y="591" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED27" element="led">
+			<bounds x="1012" y="750" width="15" height="15" />
+		</backdrop>
+		<backdrop name="LED13" element="led">
+			<bounds x="1016" y="594" width="15" height="15" />
+		</backdrop>
+<!-- Two Times Bonus -->		
+		<backdrop name="LED28" element="led">
+			<bounds x="1027" y="836" width="15" height="15" />
+		</backdrop>
+<!-- Same Player -->
+		<backdrop name="LED29" element="led">
+			<bounds x="942" y="947" width="15" height="15" />
+		</backdrop>
+<!-- End Lamps -->
+		<backdrop element="backdrop">
+			<bounds x="679" y="242" width="549" height="780" />
+			<color alpha="0.5"/>
+		</backdrop>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Backdrop, Lamps
+- Bezel scanned by Andy's Arcade
+- Vectored by zorg
+- Backdrop photographed by TrevEB
+- Tweaked for MAME by Mr. Do
+- Lay file by Mr. Do
+
+-->

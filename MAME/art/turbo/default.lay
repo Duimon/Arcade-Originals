@@ -1,0 +1,251 @@
+<!-- turbo.lay -->
+
+<mamelayout version="2">
+	<element name="digit" defstate="10">
+		<led7seg>
+			<color red="1.0" green="0.3" blue="0.0" />
+		</led7seg>
+	</element>
+	<element name="turbo_tach">
+		<image file="turbo_tach.png" />
+	</element>
+	<element name="turbo_tach_mask">
+		<image file="turbo_tach_mask.png" />
+	</element>
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="tach" defstate="0">
+		<image file="tach_01.png" state="1" />
+		<image file="tach_01.png" state="2" />
+		<image file="tach_01.png" state="3" />
+		<image file="tach_02.png" state="4" />
+		<image file="tach_02.png" state="5" />
+		<image file="tach_02.png" state="6" />
+		<image file="tach_03.png" state="7" />
+		<image file="tach_03.png" state="8" />
+		<image file="tach_03.png" state="9" />
+		<image file="tach_04.png" state="10" />
+		<image file="tach_04.png" state="11" />
+		<image file="tach_04.png" state="12" />
+		<image file="tach_05.png" state="13" />
+		<image file="tach_05.png" state="14" />
+		<image file="tach_05.png" state="15" />
+		<image file="tach_06.png" state="16" />
+		<image file="tach_06.png" state="17" />
+		<image file="tach_06.png" state="18" />
+		<image file="tach_07.png" state="19" />
+		<image file="tach_07.png" state="20" />
+		<image file="tach_07.png" state="21" />
+		<image file="tach_08.png" state="22" />
+		<image file="tach_08.png" state="23" />
+		<image file="tach_08.png" state="24" />
+		<image file="tach_09.png" state="25" />
+		<image file="tach_09.png" state="26" />
+		<image file="tach_09.png" state="27" />
+		<image file="tach_10.png" state="28" />
+		<image file="tach_10.png" state="29" />
+		<image file="tach_10.png" state="30" />
+		<image file="tach_11.png" state="31" />
+		<image file="tach_11.png" state="32" />
+		<image file="tach_11.png" state="33" />
+		<image file="tach_12.png" state="34" />
+		<image file="tach_12.png" state="35" />
+		<image file="tach_12.png" state="36" />
+		<image file="tach_13.png" state="37" />
+		<image file="tach_13.png" state="38" />
+		<image file="tach_13.png" state="39" />
+		<image file="tach_14.png" state="40" />
+		<image file="tach_14.png" state="41" />
+		<image file="tach_14.png" state="42" />
+		<image file="tach_15.png" state="43" />
+		<image file="tach_15.png" state="44" />
+		<image file="tach_15.png" state="45" />
+		<image file="tach_16.png" state="46" />
+		<image file="tach_16.png" state="47" />
+		<image file="tach_16.png" state="48" />
+		<image file="tach_17.png" state="49" />
+		<image file="tach_17.png" state="50" />
+		<image file="tach_17.png" state="51" />
+		<image file="tach_18.png" state="52" />
+		<image file="tach_18.png" state="53" />
+		<image file="tach_18.png" state="54" />
+		<image file="tach_19.png" state="55" />
+		<image file="tach_19.png" state="56" />
+		<image file="tach_19.png" state="57" />
+		<image file="tach_20.png" state="58" />
+		<image file="tach_20.png" state="59" />
+		<image file="tach_20.png" state="60" />
+	</element>
+	<element name="speed" defstate="0">
+		<rect state="1">
+			<bounds x="0" y="0" width="17" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="2">
+			<bounds x="0" y="0" width="34" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="3">
+			<bounds x="0" y="0" width="51" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="4">
+			<bounds x="0" y="0" width="68" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="5">
+			<bounds x="0" y="0" width="85" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="6">
+			<bounds x="0" y="0" width="102" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="7">
+			<bounds x="0" y="0" width="119" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="8">
+			<bounds x="0" y="0" width="136" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="9">
+			<bounds x="0" y="0" width="153" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+		<rect state="10">
+			<bounds x="0" y="0" width="170" height="7" />
+			<color red="1.0" green="0.0" blue="0.0" />
+		</rect>
+	</element>
+	<element name="shifter" defstate="0">
+		<image file="Shift_Low.png" state="0"/>
+		<image file="Shift_High.png" state="1"/>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="731" y="248" width="630" height="687" />
+		</screen>		
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel name="digit27" element="digit">
+			<bounds x="591" y="756" width="27" height="35" />
+		</bezel>
+		<bezel name="digit28" element="digit">
+			<bounds x="561" y="756" width="27" height="35" />
+		</bezel>
+		<bezel name="digit29" element="digit">
+			<bounds x="530" y="756" width="27" height="35" />
+		</bezel>
+		<bezel name="digit30" element="digit">
+			<bounds x="500" y="756" width="27" height="35" />
+		</bezel>
+		<bezel name="digit31" element="digit">
+			<bounds x="465" y="756" width="27" height="35" />
+		</bezel>
+		<bezel name="digit2" element="digit">
+			<bounds x="606" y="608" width="19" height="23" />
+		</bezel>
+		<bezel name="digit3" element="digit">
+			<bounds x="585" y="608" width="19" height="23" />
+		</bezel>
+		<bezel name="digit4" element="digit">
+			<bounds x="563" y="608" width="19" height="23" />
+		</bezel>
+		<bezel name="digit5" element="digit">
+			<bounds x="541" y="608" width="19" height="23" />
+		</bezel>
+		<bezel name="digit6" element="digit">
+			<bounds x="519" y="608" width="19" height="23" />
+		</bezel>
+		<bezel name="digit7" element="digit">
+			<bounds x="606" y="572" width="19" height="23" />
+		</bezel>
+		<bezel name="digit8" element="digit">
+			<bounds x="585" y="572" width="19" height="23" />
+		</bezel>
+		<bezel name="digit9" element="digit">
+			<bounds x="563" y="572" width="19" height="23" />
+		</bezel>
+		<bezel name="digit10" element="digit">
+			<bounds x="541" y="572" width="19" height="23" />
+		</bezel>
+		<bezel name="digit11" element="digit">
+			<bounds x="519" y="572" width="19" height="23" />
+		</bezel>
+		<bezel name="digit12" element="digit">
+			<bounds x="606" y="535" width="19" height="23" />
+		</bezel>
+		<bezel name="digit13" element="digit">
+			<bounds x="585" y="535" width="19" height="23" />
+		</bezel>
+		<bezel name="digit14" element="digit">
+			<bounds x="563" y="535" width="19" height="23" />
+		</bezel>
+		<bezel name="digit15" element="digit">
+			<bounds x="541" y="535" width="19" height="23" />
+		</bezel>
+		<bezel name="digit16" element="digit">
+			<bounds x="519" y="535" width="19" height="23" />
+		</bezel>
+		<bezel name="digit17" element="digit">
+			<bounds x="606" y="501" width="19" height="23" />
+		</bezel>
+		<bezel name="digit18" element="digit">
+			<bounds x="585" y="501" width="19" height="23" />
+		</bezel>
+		<bezel name="digit19" element="digit">
+			<bounds x="563" y="501" width="19" height="23" />
+		</bezel>
+		<bezel name="digit20" element="digit">
+			<bounds x="541" y="501" width="19" height="23" />
+		</bezel>
+		<bezel name="digit21" element="digit">
+			<bounds x="519" y="501" width="19" height="23" />
+		</bezel>
+		<bezel name="digit22" element="digit">
+			<bounds x="606" y="465" width="19" height="23" />
+		</bezel>
+		<bezel name="digit23" element="digit">
+			<bounds x="585" y="465" width="19" height="23" />
+		</bezel>
+		<bezel name="digit24" element="digit">
+			<bounds x="563" y="465" width="19" height="23" />
+		</bezel>
+		<bezel name="digit25" element="digit">
+			<bounds x="541" y="465" width="19" height="23" />
+		</bezel>
+		<bezel name="digit26" element="digit">
+			<bounds x="519" y="465" width="19" height="23" />
+		</bezel>
+		<bezel element="shifter" inputtag="INPUT" inputmask="0x04">
+			<bounds x="0" y="0" width="1920" height="1080" />
+		</bezel>
+		<bezel element="turbo_tach">
+			<bounds x="436" y="845" width="216" height="125" />
+		</bezel>
+		<bezel name="tachometer" element="tach">
+			<bounds x="436" y="845" width="216" height="125" />
+		</bezel>
+		<bezel name="speed" element="speed">
+			<bounds x="458" y="939" width="171" height="7" />
+		</bezel>
+		<bezel element="turbo_tach_mask">
+			<bounds x="436" y="845" width="216" height="125" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel; Control Panel
+- Scanned bezel provided by italie, MAMEWorld [upright]
+- Scanned bezel provided by Aaron Giles [cockpit]
+- Bezels Vectorized by Ad_Enuff
+- Converted for MAME by Ad_Enuff
+- Cockpit gauge recreated based on photographs/operations manual by Mr. Do
+- Lay file by Mr. Do
+
+-->
