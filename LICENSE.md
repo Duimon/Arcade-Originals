@@ -1,5 +1,3 @@
-# Arcade-Originals
-A collection of MAME layouts and Rocketlauncher bezels with a custom cohesive theme for 122 landmark arcade games.
 ### LICENSE
 *******************
 All the assets, including documentation and code, are published under the 'Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)' Creative Commons license.
